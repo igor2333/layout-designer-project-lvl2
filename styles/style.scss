@@ -49,6 +49,11 @@ strong {
   line-height: 20px;
 }
 
+.flex-justify-content-start {
+  display: flex;
+  justify-content: start;
+}
+
 .pad-top-10px {
   padding-top: 10px;
 }
@@ -93,6 +98,10 @@ strong {
   padding-bottom: 50px;
 }
 
+.pad-right-50px {
+  padding-right: 50px;
+}
+
 .pad-top-40px {
   padding-top: 40px;
 }
@@ -107,6 +116,10 @@ strong {
 
 .margin-top-50px {
   margin-top: 50px;
+}
+
+.padding-right-3px {
+  padding-right: 3px;
 }
 
 .pad-top-240px {
@@ -127,6 +140,10 @@ strong {
   font-size: 60px;
 }
 
+.font-size-11px {
+  font-size: 11px;
+}
+
 .font-size-20px {
   font-size: 20px;
 }
@@ -141,6 +158,10 @@ strong {
 
 .font-size-13px {
   font-size: 13px;
+}
+
+.font-size-30px {
+  font-size: 30px;
 }
 
 .margin-top-100px {
@@ -159,12 +180,12 @@ strong {
   font-size: 38px;
 }
 
-.word-spacing-2px {
-  word-spacing: 2px;
-}
-
 .width-435px {
   width: 435px;
+}
+
+.margin-top-232px {
+  margin-top: 232px;
 }
 
 .padding-right-10px {
@@ -175,8 +196,16 @@ strong {
   padding-top: 195px;
 }
 
+.pad-top-45px {
+  padding-top: 45px;
+}
+
 .pad-top-215px {
   padding-top: 215px;
+}
+
+.margin-bottom-254px {
+  margin-bottom: 254px;
 }
 
 .pad-top-15px {
@@ -226,8 +255,16 @@ h3 {
   color: white;
 }
 
+.word-spacing-2px {
+  word-spacing: 2px;
+}
+
 .word-spacing-4px {
   word-spacing: 4px;
+}
+
+.word-spacing-50px {
+  word-spacing: 36.6px;
 }
 
 .color-white {
@@ -238,26 +275,21 @@ h3 {
   display: flex;
 }
 
-.word-spacing-50px {
-  word-spacing: 50px;
-}
-
 .main-bg {
   background-image: url(../images/banner.png);
   height: 800px;
 }
 
 .logo-size {
-  width: 35px;
-  height: 35px;
+  width: 19.76px;
+  height: 17px;
 }
 
 .header-menu {
-  font-size: 10px;
-
   .a-header {
     text-decoration: none;
     color: #808080;
+    font-size: 11px;
 
     &:hover {
       color: white;
@@ -271,27 +303,10 @@ h3 {
   border-radius: 50px;
   outline: none;
   border: none;
-  height: 28px;
-  width: 300px;
+  width: 278px;
+  height: 25.71px;
   padding-left: 15px;
-  font-size: 15px;
-}
-
-.main-h1 {
-  font-size: 50px;
-  margin-top: 250px;
-  font-weight: bold;
-}
-
-.main-h2 {
-  font-size: 25px;
-  padding-top: 10px;
-  font-weight: bold;
-}
-
-.main-h3 {
-  font-size: 18px;
-  word-spacing: 1px;
+  font-size: 11px;
 }
 
 .main-form {
@@ -358,6 +373,8 @@ h3 {
 }
 
 .card-price-position {
+  display: flex;
+  justify-content: center;
   word-spacing: 12px;
   margin-bottom: 35px;
 }
@@ -558,38 +575,55 @@ h3 {
 
 .img-preview-1 {
   background-image: url(../images/Brother.png);
+  background-size: contain;
 }
 
 .img-preview-2 {
   background-image: url(../images/OutofMyHands.png);
+  background-size: contain;
 }
 
 .img-preview-3 {
   background-image: url(../images/LetterfromEgypt.png);
+  background-size: contain;
 }
 
 .img-preview-4 {
   background-image: url(../images/VogtsVilla.png);
+  background-size: contain;
+}
+
+.pad-position {
+  padding-right: 50px;
 }
 
 .img-preview-5 {
   background-image: url(../images/WildSeed.png);
+  background-size: contain;
 }
 
 .img-preview-6 {
   background-image: url(../images/PoetenesEvangelium.png);
-}
-
-.test {
-  width: 550px;
+  background-size: contain;
 }
 
 /* НАЧАЛО ВЁРСТКИ АДАПТИВНОСТИ */
 
 @media (max-width: 1280px) {
-
   .catalog-h1 {
     font-size: 50px;
+  }
+
+  .h-media-text-align {
+    text-align: center;
+  }
+
+  .pad-media-position {
+    padding-left: 20px;
+  }
+
+  .pad-position {
+    padding-right: 0;
   }
 
   .pad-top-50px-media {
@@ -603,7 +637,7 @@ h3 {
   .music-section {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
   }
 
   .img-preview-size {
@@ -633,7 +667,7 @@ h3 {
   }
 
   .width-435px {
-    width: 1000px ;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -736,7 +770,7 @@ h3 {
   .pad-top-240px {
     padding-top: 100px;
   }
-  
+
   .font-size-30-media {
     font-size: 30px;
   }
