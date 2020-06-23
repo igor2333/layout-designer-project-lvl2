@@ -1,0 +1,88 @@
+.catalog-main-bg {
+  background-image: url(../images/Catalogbanner.png);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+}
+
+.img-filter {
+  -webkit-filter: 1;
+          filter: 1;
+}
+
+.catalog-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-img-catalog-position {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.svg-img-size {
+  width: 20px;
+  height: 20px;
+}
+
+.bg-purple {
+  background: #5328a1;
+}
+
+.bg-red {
+  background: #95390c;
+}
+
+.music-ava-size {
+  width: 55.3px;
+  height: 50px;
+}
+
+.wrapper-280-1200-px {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-preview-size {
+  width: 250px;
+  height: 250px;
+}
+
+.img-preview-1 {
+  background-image: url(../images/Brother.png);
+  background-size: contain;
+}
+
+.img-preview-2 {
+  background-image: url(../images/OutofMyHands.png);
+  background-size: contain;
+}
+
+.img-preview-3 {
+  background-image: url(../images/LetterfromEgypt.png);
+  background-size: contain;
+}
+
+.img-preview-4 {
+  background-image: url(../images/VogtsVilla.png);
+  background-size: contain;
+}
+
+.pad-position {
+  padding-right: 50px;
+}
+
+.img-preview-5 {
+  background-image: url(../images/WildSeed.png);
+  background-size: contain;
+}
+
+.img-preview-6 {
+  background-image: url(../images/PoetenesEvangelium.png);
+  background-size: contain;
+}
+/*# sourceMappingURL=catalog.css.map */
