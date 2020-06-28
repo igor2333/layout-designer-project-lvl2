@@ -11,12 +11,12 @@ body {
   text-decoration: none;
 }
 
-.wrapper-1200px {
+.wrapper {
   width: 1200px;
   margin: 0 auto;
 }
 
-.wrapper-1020px {
+.wrapper-footer {
   width: 1020px;
   margin: 0 auto;
 }
@@ -52,6 +52,10 @@ body {
 
 .pad-top-10px {
   padding-top: 10px;
+}
+
+.pad-bottom-254px {
+  margin-bottom: 200px;
 }
 
 .pad-top-20px {
@@ -100,6 +104,14 @@ body {
 
 .pad-right-50px {
   padding-right: 50px;
+}
+
+.pad-bottom-15px {
+  padding-bottom: 64px;
+}
+
+.margin-right-73px {
+  margin-right: 73px;
 }
 
 .pad-top-40px {
@@ -192,8 +204,8 @@ body {
   padding-right: 10px;
 }
 
-.pad-top-195px {
-  padding-top: 195px;
+.pad-top-223px {
+  padding-top: 223px;
 }
 
 .pad-top-45px {
@@ -241,18 +253,6 @@ body {
   flex-direction: column;
 }
 
-.word-spacing-2px {
-  word-spacing: 2px;
-}
-
-.word-spacing-4px {
-  word-spacing: 4px;
-}
-
-.word-spacing-50px {
-  word-spacing: 36.6px;
-}
-
 .color-white {
   color: white;
 }
@@ -261,28 +261,20 @@ body {
   display: flex;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
   color: white;
   font-style: normal;
   font-weight: bold;
-}
-
-h2 {
-  margin: 0;
-  color: white;
-  font-style: normal;
-  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h3 {
+  margin: 0;
   color: white;
   font-style: normal;
   font-weight: bold;
 }
 
-.text-transform {
-  text-transform: uppercase;
-}
 
 

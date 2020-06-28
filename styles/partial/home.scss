@@ -1,7 +1,5 @@
 .main-bg {
   background-image: url(../images/banner.png);
-  height: 800px;
-  width: 100%;
 }
 
 .logo-size {
@@ -69,20 +67,20 @@
 
 .card-1 {
   background: url(../images/subscribe_1.png);
-  width: 352px;
-  height: 580px;
 }
 
 .card-2 {
   background: url(../images/subscribe_2.png);
-  width: 350px;
-  height: 580px;
 }
 
 .card-3 {
   background: url(../images/subscribe_3.png);
-  width: 350px;
-  height: 580px;
+}
+
+.card {
+  flex-grow: 1;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .card-price {
@@ -125,8 +123,8 @@
 }
 
 .h3-card {
+  padding-top: 24px;
   font-size: 26px;
-  line-height: 28px;
   text-align: center;
 }
 
@@ -166,7 +164,7 @@
 .news-data {
   color: #555555;
 }
-
+  
 .news-button {
   font-size: 12px;
   line-height: 28px;
@@ -203,4 +201,3 @@
   line-height: 16px;
   cursor: pointer;
 }
-

@@ -1,12 +1,10 @@
 .catalog-main-bg {
   background-image: url(../images/Catalogbanner.png);
-  height: 550px;
-  width: 100%;
   background-size: cover;
 }
 
 .img-filter {
-  filter: opacity(white);
+  filter: invert(100%); 
 }
 
 .catalog-btn {
