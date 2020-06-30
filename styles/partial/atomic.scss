@@ -9,6 +9,9 @@ body {
   outline: none;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 16px;
 }
 
 .wrapper {
@@ -55,7 +58,7 @@ body {
 }
 
 .pad-bottom-254px {
-  margin-bottom: 200px;
+  padding-bottom: 254px;
 }
 
 .pad-top-20px {
@@ -261,20 +264,12 @@ body {
   display: flex;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
   color: white;
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
 }
-
-h3 {
-  margin: 0;
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-}
-
 
 
