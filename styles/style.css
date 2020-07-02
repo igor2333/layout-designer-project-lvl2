@@ -141,6 +141,10 @@ body {
   padding-right: 3px;
 }
 
+.width-100px {
+  width: 100px;
+}
+
 .pad-top-240px {
   padding-top: 240px;
 }
@@ -197,10 +201,6 @@ body {
 
 .font-size-38px {
   font-size: 38px;
-}
-
-.width-435px {
-  width: 435px;
 }
 
 .margin-top-232px {
@@ -301,6 +301,10 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 38px;
+}
+
 .catalog-main-bg {
   background-image: url(../images/Catalogbanner.png);
   background-size: cover;
@@ -316,6 +320,16 @@ h1, h2, h3 {
   height: 50px;
   font-size: 14px;
   border: none;
+}
+
+.btn-container {
+  width: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main-img-catalog-position {
@@ -341,11 +355,6 @@ h1, h2, h3 {
   height: 50px;
 }
 
-.wrapper-280-1200-px {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .img-preview-size {
   width: 250px;
   height: 250px;
@@ -369,10 +378,6 @@ h1, h2, h3 {
 .img-preview-4 {
   background-image: url(../images/VogtsVilla.png);
   background-size: contain;
-}
-
-.pad-position {
-  padding-right: 50px;
 }
 
 .img-preview-5 {
@@ -536,11 +541,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.news-image-size {
-  width: 566px;
-  height: 284px;
-}
-
 .news-h2 {
   font-size: 30px;
   line-height: 35px;
@@ -650,14 +650,8 @@ h1, h2, h3 {
 }
 
 @media (max-width: 1280px) {
-  .catalog-h1 {
-    font-size: 50px;
-  }
-  .catalog-main-bg {
-    height: 630px;
-  }
-  .h-media-text-align {
-    text-align: center;
+  .wrapper {
+    max-width: 1000px;
   }
   .margin-right-left-40px {
     padding-left: 40px;
@@ -666,39 +660,14 @@ h1, h2, h3 {
   .pad-media-position {
     padding-left: 20px;
   }
-  .pad-position {
-    padding-right: 0;
-  }
   .pad-top-50px-media {
     padding-top: 50px;
   }
   .article-width {
-    width: 280px;
-  }
-  .music-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 400px;
   }
   .card-text {
     width: 244px;
-  }
-  .img-preview-size {
-    width: 130px;
-    height: 130px;
-  }
-  .wrapper-280-1200-px {
-    max-width: 280px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   .font-size-16px-media {
     font-size: 16px;
@@ -712,24 +681,8 @@ h1, h2, h3 {
   .font-size-14-media {
     font-size: 14px;
   }
-  .width-435px {
-    width: 1000px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .media-margin {
     margin-bottom: 25px;
-  }
-  .wrapper {
-    max-width: 1000px;
   }
   .wrapper-footer {
     max-width: 900px;
@@ -785,26 +738,8 @@ h1, h2, h3 {
     height: 50px;
     font-size: 15px;
   }
-  .card-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .margin-right-73px {
-    margin-right: 0;
-  }
-  .card-1 {
-    margin-bottom: 50px;
-  }
-  .card-2 {
-    margin-bottom: 50px;
+    margin-right: 20px;
   }
   .p-info {
     font-size: 20px;
@@ -814,11 +749,46 @@ h1, h2, h3 {
   .news-text {
     max-width: 566px;
   }
+  .card-1,
+  .card-2,
+  .card-3 {
+    border-radius: 10px;
+    width: 280px;
+  }
+  .card-price-text {
+    font-size: 30px;
+  }
+  .card-content {
+    padding-top: 160px;
+  }
+  .card-btn {
+    width: 239px;
+    height: 55px;
+    font-size: 12px;
+  }
+  .card-text {
+    width: 244px;
+  }
 }
 
 @media (max-width: 1023px) {
   .wrapper {
-    max-width: 280px;
+    max-width: 768px;
+  }
+  .pad-top-50px-media-2 {
+    padding-top: 50px;
+  }
+  .music-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .article-width {
+    width: 550px;
   }
   .margin-right-left-40px {
     padding-left: 0;
@@ -830,10 +800,17 @@ h1, h2, h3 {
   .pad-left-36px {
     padding-left: 0;
   }
-  .width-435px {
+  .catalog-btn {
     width: 280px;
   }
-  .catalog-btn {
+  .btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 280px;
   }
   .font-size-12px-media {
@@ -844,10 +821,6 @@ h1, h2, h3 {
   }
   .font-size-30-media {
     font-size: 30px;
-  }
-  .img-executor-media-size {
-    width: 130px;
-    height: 130px;
   }
   .font-size-20px-media {
     font-size: 20px;
@@ -954,32 +927,35 @@ h1, h2, h3 {
     height: 464px;
     border-radius: 10px;
   }
-  .card-price-text {
-    font-size: 30px;
-  }
   .card-content {
     padding-top: 160px;
   }
+  .card-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .margin-right-73px {
+    margin-right: 10px;
+  }
   .card-btn {
-    width: 239px;
-    height: 55px;
-    font-size: 12px;
+    width: 200px;
+  }
+  .card-price {
+    font-size: 50px;
+    line-height: 50px;
   }
   .card-text {
     width: 244px;
   }
   .p-info {
-    width: 275px;
+    width: 700px;
     font-size: 12px;
     line-height: 16px;
   }
   .h1-info {
     font-size: 20px;
     margin-top: 44px;
-  }
-  .news-image-size {
-    width: 280px;
-    height: 140px;
   }
   .news-button {
     width: 280px;
@@ -1002,6 +978,123 @@ h1, h2, h3 {
   .mobile-app-block-text {
     text-align: start;
   }
+  .wrapper-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 768px;
+    width: 450px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .media-width-182px {
+    width: 182.94px;
+  }
+  .media-column {
+    margin-bottom: 40px;
+  }
+  .wrapper-footer-other {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .a-footer-2 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 872px) {
+  .wrapper {
+    max-width: 600px;
+  }
+  .p-info {
+    width: 400px;
+  }
+  .card-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .margin-right-73px {
+    margin-right: 0px;
+  }
+  .card-1 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .card-2,
+  .card-3 {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 672px) {
+  .wrapper {
+    max-width: 280px;
+  }
+  .article-width {
+    width: 280px;
+  }
+  .img-preview-size {
+    width: 130px;
+    height: 130px;
+  }
+  .pad-right-50px {
+    padding-right: 10px;
+  }
+  .img-executor-media-size {
+    width: 130px;
+    height: 130px;
+  }
+  .pad-top-50px-media-2 {
+    padding-top: 0;
+  }
+  .font-size-20px {
+    font-size: 16px;
+  }
+  .pad-top-50px-media-2 {
+    padding-top: 50px;
+  }
+  .p-info {
+    width: 280px;
+  }
+  .news-image-size {
+    width: 280px;
+    height: 140px;
+  }
+  .card-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-1,
+  .card-2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 500px) {
   .wrapper-footer {
     display: -webkit-box;
     display: -ms-flexbox;

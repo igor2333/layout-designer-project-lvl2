@@ -14,6 +14,12 @@
   border: none;
 }
 
+.btn-container {
+  width: 435px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-img-catalog-position {
   padding-right: 15px;
   padding-left: 15px;
@@ -35,11 +41,6 @@
 .music-ava-size {
   width: 55.3px;
   height: 50px;
-}
-
-.wrapper-280-1200-px {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .img-preview-size {
@@ -65,10 +66,6 @@
 .img-preview-4 {
   background-image: url(../images/VogtsVilla.png);
   background-size: contain;
-}
-
-.pad-position {
-  padding-right: 50px;
 }
 
 .img-preview-5 {

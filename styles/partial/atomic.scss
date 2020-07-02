@@ -137,6 +137,10 @@ body {
   padding-right: 3px;
 }
 
+.width-100px {
+  width: 100px;
+}
+
 .pad-top-240px {
   padding-top: 240px;
 }
@@ -193,10 +197,6 @@ body {
 
 .font-size-38px {
   font-size: 38px;
-}
-
-.width-435px {
-  width: 435px;
 }
 
 .margin-top-232px {
@@ -270,6 +270,10 @@ h1, h2, h3 {
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
 }
 
 
