@@ -6,6 +6,7 @@ body {
 
 .btn {
   background: none;
+  text-transform: uppercase;
   outline: none;
   cursor: pointer;
   text-decoration: none;
@@ -59,6 +60,14 @@ body {
 
 .pad-bottom-254px {
   padding-bottom: 254px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.pad-top-100px-media-news {
+  padding-top: 100px;
 }
 
 .pad-top-20px {
@@ -145,13 +154,15 @@ body {
   padding-top: 240px;
 }
 
-.font-style-weight {
+.font-style-normal {
   font-style: normal;
+}
+
+.font-weight-normal {
   font-weight: normal;
 }
 
-.font-style-norm-weight-bold {
-  font-style: normal;
+.font-weight-bold {
   font-weight: bold;
 }
 
@@ -258,6 +269,10 @@ body {
 
 .color-white {
   color: white;
+}
+
+.text-transform {
+  text-transform: uppercase;
 }
 
 .ds-flex {
