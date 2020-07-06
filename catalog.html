@@ -11,65 +11,36 @@
     <title>Портал «Music Box» Игорь Алейников</title>
   </head>
   <body>
-    <header class="wrapper">
-      <div
-        class="pad-top-25px wrapper test flex-dir-align-items-media position-absolute flex-align-items-center flex-justify-content-space-between"
-      >
-        <div class="flex-align-items-center color-white">
-          <img
-            class="logo-size padding-right-10px"
-            src="images/logo.svg"
-            alt="logo"
-          />
-          <strong class="font-size-11px text-transform">Music Box</strong>
-        </div>
-        <div class="header-menu">
-          <nav>
-            <strong
-              ><a class="a-header text-transform" href="#">Главная</a></strong
-            >
-            <strong
-              ><a
-                class="a-header text-transform pad-left-36px"
-                href="catalog.html"
-                >Исполнители</a
-              ></strong
-            >
-            <strong
-              ><a class="a-header text-transform pad-left-36px" href="#"
-                >Каталог</a
-              ></strong
-            >
-            <strong
-              ><a class="a-header text-transform pad-left-36px" href="#"
-                >Контакты</a
-              ></strong
-            >
-          </nav>
-        </div>
-        <div>
-          <input
-            class="header-textarea-content color-white"
-            placeholder="ПОИСК..."
-            type="text"
-          />
-        </div>
+    <header class="wrapper color-white">
+      <div class="pad-top-25px wrapper header-sm position-absolute flex-align-items-center flex-justify-content-space-between">
+      <div class="flex-align-items-center">
+        <img class="logo-size padding-right-10px" src="images/logo.svg" alt="logo" />
+        <strong class="font-size-11px text-transform">Music Box</strong>
+      </div>    
+        <nav class="header-menu">
+        <strong><a class="a-header text-transform" href="index.html">Главная</a></strong>
+        <strong><a class="a-header text-transform pad-left-36px" href="catalog.html">Исполнители</a></strong>
+        <strong><a class="a-header text-transform pad-left-36px" href="#">Каталог</a></strong>
+        <strong><a class="a-header text-transform pad-left-36px" href="#">Контакты</a></strong>
+      </nav>
+      <div>
+        <input class="header-textarea-content color-white" placeholder="ПОИСК..." type="text" />
       </div>
-    </header>
+    </div>
+  </header>
     <div class="catalog-main-bg pad-top-30px pad-bottom-100px">
-      <section>
-        <div class="wrapper">
+      <section class="wrapper color-white">
           <h1
-            class="catalog-h1 pad-top-240px pad-bottom-25px font-size-60px font-size-30-media"
+            class="pad-top-240px pad-bottom-25px"
           >
             Morten Harket
           </h1>
-          <h2 class="font-size-18px font-size-14-media">
+          <h2 class="font-size-sm-14">
             24 875 поклонников
           </h2>
           <form class="btn-container pad-top-40px">
             <button
-              class="media-margin text-transform flex-align-items-center bg-purple btn catalog-btn color-white"
+              class="margin-bottom-md-25 text-transform flex-align-items-center bg-purple btn catalog-btn"
             >
               <img
                 class="main-img-catalog-position svg-img-size img-filter"
@@ -78,30 +49,29 @@
               />Микс
             </button>
             <button
-              class="text-transform flex-align-items-center btn bg-red catalog-btn color-white"
+              class="text-transform flex-align-items-center btn bg-red catalog-btn"
             >
               <img
-                class="img-filter main-img-catalog-position svg-img-size color-white"
+                class="img-filter main-img-catalog-position svg-img-size"
                 src="images/heart.svg"
                 alt="heart"
               />В избранное
             </button>
           </form>
-        </div>
       </section>
     </div>
     <main>
-      <section
-        class="music-section wrapper color-white pad-top-100px pad-bottom-100px"
+      <section section
+        class="music-section-md wrapper font-style-normal font-weight-normal color-white pad-top-100px pad-bottom-100px"
       >
         <div>
           <h2 class="pad-bottom-50px">Популярные треки</h2>
         </div>
-        <div class="ds-flex music-section">
+        <div class="ds-flex music-section-md">
           <div class="flex-direction-column">
             <article class="pad-bottom-25px pad-right-50px">
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -111,7 +81,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >Spanish Steps</strong
                     >
                     <p
@@ -128,7 +98,7 @@
             </article>
             <article class="pad-bottom-25px pad-right-50px">
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -138,7 +108,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >Brother</strong
                     >
                     <p
@@ -154,10 +124,10 @@
               </div>
             </article>
             <article
-              class="article-position flex-direction-column pad-right-50px"
+              class="pad-bottom-md-25 flex-direction-column pad-right-50px"
             >
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -167,7 +137,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >Darkspace</strong
                     >
                     <p
@@ -186,7 +156,7 @@
           <div class="flex-direction-column">
             <article class="pad-bottom-25px">
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -196,7 +166,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >With You - With Me</strong
                     >
                     <p
@@ -213,7 +183,7 @@
             </article>
             <article class="pad-bottom-25px">
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -223,7 +193,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >Brodsky Tune</strong
                     >
                     <p
@@ -240,7 +210,7 @@
             </article>
             <article class="flex-direction-column">
               <div
-                class="article-width flex-align-items-center width-550px flex-justify-content-space-between"
+                class="music-width-md-sm flex-align-items-center width-550px flex-justify-content-space-between"
               >
                 <div class="flex-align-items-center">
                   <img
@@ -250,7 +220,7 @@
                   />
                   <div class="pad-left-17px">
                     <strong
-                      class="font-size-16px font-style-normal font-weight-normal"
+                      class="font-size-16px"
                       >Burn Money Burn</strong
                     >
                     <p
@@ -268,13 +238,13 @@
           </div>
         </div>
       </section>
-      <section class="wrapper ds-flex flex-wrap">
+      <section class="wrapper ds-flex flex-wrap color-white font-style-normal font-weight-bold">
         <div>
-          <h2 class="pad-bottom-50px wrapper font-size-20px-media">
+          <h2 class="pad-bottom-50px wrapper">
             Дискография
           </h2>
         </div>
-        <article class="pad-top-50px-media pad-right-50px">
+        <article class="pad-right-50px">
           <div class="img-preview-1 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -284,16 +254,16 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-weight-bold font-size-16px-media"
+              class="font-size-20px font-size-16px-media"
               >Brother</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >2014</span
             >
           </div>
         </article>
-        <article class="pad-top-50px-media pad-right-50px">
+        <article class="pad-right-50px">
           <div class="img-preview-2 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -303,16 +273,16 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-weight-bold font-size-16px-media"
+              class="font-size-20px font-weight-bold"
               >Out of My Hands</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >2012</span
             >
           </div>
         </article>
-        <article class="pad-top-50px-media pad-right-50px">
+        <article class="pad-right-50px pad-top-50-sm">
           <div class="img-preview-3 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -322,16 +292,16 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-weight-bold font-size-16px-media"
+              class="font-size-20px"
               >Letter from Egypt</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >2008</span
             >
           </div>
         </article>
-        <article class="pad-top-50px-media pad-right-50px">
+        <article class="pad-right-50px pad-top-50-md pad-top-50-sm">
           <div class="img-preview-4 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -341,16 +311,16 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-weight-bold font-size-16px-media"
+              class="font-size-20px"
               >Vogts Villa</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >1996</span
             >
           </div>
         </article>
-        <article class="pad-top-50px pad-right-50px">
+        <article class="pad-right-50px pad-top-50px-music-card">
           <div class="img-preview-5 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -360,16 +330,16 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-weight-bold font-size-16px-media"
+              class="font-size-20px"
               >Will Seed</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >1995</span
             >
           </div>
         </article>
-        <article class="pad-top-50px">
+        <article class="pad-top-50px-music-card">
           <div class="img-preview-6 img-preview-size">
             <img
               class="svg-img-size pad-left-17px pad-top-215px"
@@ -379,164 +349,164 @@
           </div>
           <div class="pad-top-10px flex-direction-column">
             <strong
-              class="font-size-20px color-white font-style-normal font-size-16px-media width-140px-media"
+              class="font-size-20px color-white font-style-normal ont-size-md-16 width-md-130"
               >Poetenes Evangelium</strong
             >
             <span
-              class="pad-top-10px color-white font-style-normal font-weight-normal"
+              class="pad-top-10px"
               >1993</span
             >
           </div>
         </article>
       </section>
-      <section class="ds-flex flex-wrap pad-bottom-100px wrapper">
-        <h2 class="wrapper pad-top-100px pad-bottom-50px font-size-20px-media">
+      <section class="ds-flex flex-wrap pad-bottom-100px wrapper color-white font-style-normal font-weight-bold">
+        <h2 class="wrapper pad-top-100px pad-bottom-50px">
           Похожие исполнители
         </h2>
-        <article class="pad-right-50px flex-direction-column">
+        <article class="pad-right-50px text-align-center flex-direction-column">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/A-ha.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >A-ha</strong
             >
             <p
-              class="color-white font-style-normal font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12 "
             >
               417 086 поклонников
             </p>
           </div>
         </article>
-        <article class="flex-direction-column pad-right-50px">
+        <article class="flex-direction-column text-align-center pad-right-50px">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Tears for Fears.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Tears for Fears</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12 "
             >
               434 086 поклонников
             </p>
           </div>
         </article>
         <article
-          class="flex-direction-column pad-right-50px pad-top-50px-media-2"
+          class="flex-direction-column text-align-center pad-top-50px-music-card-discography-sm pad-right-50px"
         >
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Duran Duran.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Duran Duran</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12"
             >
               631 071 поклонник
             </p>
           </div>
         </article>
         <article
-          class="flex-direction-column pad-right-50px pad-top-50px-media"
+          class="flex-direction-column text-align-center pad-top-50px-music-card-discography pad-right-50px"
         >
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Jack Savoretti.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Jack Savoretti</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12"
             >
               26 857 поклонников
             </p>
           </div>
         </article>
-        <article class="flex-direction-column pad-top-50px pad-right-50px">
+        <article class="flex-direction-column text-align-center pad-top-50px-music-card-discography pad-right-50px">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Keane.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Keane</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media width-100px"
+              class="font-size-16px font-size-md-12"
             >
-              1 704 358 поклонников
+              1 704 58 поклонников
             </p>
           </div>
         </article>
-        <article class="flex-direction-column pad-top-50px pad-right-50px">
+        <article class="flex-direction-column text-align-center pad-top-50px-music-card-discography pad-right-50px">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Frank Sinatra.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Frank Sinatra</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12"
             >
-              1 653 882 поклонника
+              1 653 82 поклонников
             </p>
           </div>
         </article>
-        <article class="flex-direction-column pad-top-50px pad-right-50px">
+        <article class="flex-direction-column text-align-center pad-top-50px-music-card-discography pad-right-50px">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Paul Young.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
               >Paul Young</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12"
             >
               50 329 поклонников
             </p>
           </div>
         </article>
-        <article class="flex-direction-column pad-top-50px pad-right-50px">
+        <article class="flex-direction-column text-align-center pad-top-50px-music-card-discography pad-right-50px">
           <img
-            class="img-executor-media-size"
+            class="img-executor-sm-size"
             src="images/Chris Rea.png"
             alt="executor"
           />
-          <div class="text-align-center pad-top-15px">
+          <div class="pad-top-15px">
             <strong
-              class="color-white font-style-normal font-weight-normal font-weight-bold font-size-20px"
+              class="font-size-20px"
             >
               Chris Rea</strong
             >
             <p
-              class="color-white font-style-normal font-weight-normal font-size-16px font-size-12px-media"
+              class="font-size-16px font-size-md-12"
             >
               73 351 поклонник
             </p>
@@ -548,14 +518,14 @@
       <div
         class="pad-top-80px flex-justify-content-space-between pad-bottom-100px wrapper-footer ds-flex"
       >
-        <div class="flex-direction-column media-column">
+        <div class="flex-direction-column margin-bottom-sm-40">
           <strong class="heading-footer-column">О нас</strong>
           <a class="a-footer font-style-weight" href="#">История компании</a>
           <a class="a-footer font-style-weight" href="#">Карьера</a>
           <a class="a-footer font-style-weight" href="#">Особенности</a>
           <a class="a-footer font-style-weight" href="#">Пресса</a>
         </div>
-        <div class="flex-direction-column media-column">
+        <div class="flex-direction-column margin-bottom-sm-40">
           <strong class="heading-footer-column">Поддержка</strong>
           <a class="a-footer font-style-weight" href="#">База знаний</a>
           <a class="a-footer font-style-weight" href="#">Тарифы</a>
@@ -564,7 +534,7 @@
           >
           <a class="a-footer font-style-weight" href="#">Условия пользования</a>
         </div>
-        <div class="flex-direction-column media-column">
+        <div class="flex-direction-column margin-bottom-sm-40">
           <strong class="heading-footer-column">Контакты</strong>
           <a class="a-footer font-style-weight" href="#">hello@music.box</a>
           <a class="a-footer font-style-weight" href="#">+ 7 499 999 99 99</a>

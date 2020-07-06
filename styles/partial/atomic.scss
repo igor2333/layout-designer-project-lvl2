@@ -66,10 +66,6 @@ body {
   position: absolute;
 }
 
-.pad-top-100px-media-news {
-  padding-top: 100px;
-}
-
 .pad-top-20px {
   padding-top: 20px;
 }
@@ -80,6 +76,10 @@ body {
 
 .pad-top-30px {
   padding-top: 30px;
+}
+
+.pad-top-50px-music-card {
+  padding-top: 50px;
 }
 
 .pad-top-50px {
@@ -206,10 +206,6 @@ body {
   text-align: center;
 }
 
-.font-size-38px {
-  font-size: 38px;
-}
-
 .margin-top-232px {
   margin-top: 232px;
 }
@@ -287,8 +283,12 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 h2 {
-  font-size: 38px;
+  font-size: 30px;
 }
 
 
