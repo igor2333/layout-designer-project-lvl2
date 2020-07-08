@@ -11,8 +11,10 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  border-radius: 3px;
   line-height: 16px;
+  color: white;
+  box-sizing: border-box;
+  font-style: normal;
 }
 
 .wrapper {
@@ -52,6 +54,14 @@ body {
 .flex-justify-content-start {
   display: flex;
   justify-content: start;
+}
+
+.margin-top-25px {
+  margin-top: 25px;
+}
+
+.border-radius-50px {
+  border-radius: 50px;
 }
 
 .pad-top-10px {
@@ -96,6 +106,10 @@ body {
 
 .pad-bottom-25px {
   padding-bottom: 25px;
+}
+
+.margin-top-30px {
+  margin-top: 30px;
 }
 
 .pad-bottom-100px {
