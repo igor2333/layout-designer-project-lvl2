@@ -18,6 +18,10 @@ body {
   font-style: normal;
 }
 
+.margin-right-35px {
+  margin-right: 35px;
+}
+
 .wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -91,10 +95,6 @@ body {
 
 .pad-top-30px {
   padding-top: 30px;
-}
-
-.pad-top-50px-music-card {
-  padding-top: 50px;
 }
 
 .pad-top-50px {
@@ -350,16 +350,6 @@ h2 {
   height: 50px;
   border: none;
   color: white;
-}
-
-.btn-container {
-  width: 435px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .main-img-catalog-position {
@@ -809,7 +799,7 @@ h2 {
   .pad-top-50px-music-card-discography-sm {
     padding-top: 50px;
   }
-  .music-section-md {
+  .btn-container-md {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -817,9 +807,6 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .pad-top-50-sm {
-    padding-top: 50px;
   }
   .music-width-md-sm {
     width: 550px;
